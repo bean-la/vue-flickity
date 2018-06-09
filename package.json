@@ -36,6 +36,7 @@
     "vue": "^2.1.4"
   },
   "dependencies": {
-    "flickity": "^2.1.1"
+    "flickity": "^2.1.1",
+    "flickity-imagesloaded": "^2.0.0"
   }
 }

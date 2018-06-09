@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import Flickity from 'flickity';
+import Flickity from 'flickity-imagesloaded';
 
 export default {
   props: {
-    options: Object,
+    options: Object
   },
 
   mounted() {
@@ -317,9 +317,8 @@ export default {
     enableDrag() {
       this.$flickity.options.draggable = true;
       this.$flickity.updateDraggable();
-    },
-  },
-
+    }
+  }
 };
 </script>
 
